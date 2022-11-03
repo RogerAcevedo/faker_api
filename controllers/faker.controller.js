@@ -43,7 +43,9 @@ module.exports.fakerMethod = (req, res) => {
 module.exports.musicMethod = (req, res) => {
     res.json({
         Genre: faker.music.genre(),
-        SongName :faker.music.songName()
+        SongName :faker.music.songName(),
+        test:"test",
+        myID:"My made up ID"
     });
 }
 
